@@ -1,4 +1,4 @@
-k"use client";
+"use client";
 
 import { useState } from "react";
 
@@ -6,7 +6,7 @@ export default function Profile() {
   const [username, setUsername] = useState("");
 
   const handleUpdate = () => {
-    console.log("Profile update disabled for now");
+    console.log("Profile update disabled");
   };
 
   return (
